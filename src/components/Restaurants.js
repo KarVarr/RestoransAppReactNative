@@ -29,7 +29,6 @@ export default function Restaurants({ term }) {
       <Text style={styles.header}>Top Restaurants</Text>
       <FlatList
         showsVerticalScrollIndicator={false}
-        
         data={data}
         keyExtractor={restaurant => restaurant.id}
         renderItem={({ item }) => <RestaurantItem restaurant={item} />}

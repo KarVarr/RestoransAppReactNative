@@ -12,7 +12,7 @@ export default function HomeScreen() {
 
   const commonCatefories = [
     {
-      name: 'Burder',
+      name: 'Burger',
       imageUrl: require('../assets/burger.png'),
       id: 0,
     },
